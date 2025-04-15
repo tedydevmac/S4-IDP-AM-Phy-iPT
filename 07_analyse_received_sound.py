@@ -71,7 +71,6 @@ def fit_and_plot_sinusoid(samps, samp_rate, start_time, end_time, filename):
 # =================
 # EXECUTION
 # =================
-# Plot envelope for 1st and 2nd words (adjust time ranges as needed)
 plot_envelope(samps, samp_rate, start_time=0.0, end_time=1.0, filename="08a Received sound envelope - 1st word.png")
 plot_envelope(samps, samp_rate, start_time=1.0, end_time=2.0, filename="08b Received sound envelope - 2nd word.png")
 
