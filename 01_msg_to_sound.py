@@ -10,7 +10,7 @@ from scipy.io.wavfile import write
 # ================================
 # SETTINGS AND GLOBAL VARIABLES
 # ================================
-msg = "Tung tung tung tung tung tung tung tung tung sahur Anomali mengerikan yang hanya keluar pada sahur Konon katanya kalau ada orang yang dipanggil Sahur tiga kali dan tidak nyaut maka makhluk ini datang di rumah kalian Hiii seremnya Tung tung ini biasanya bersuara layaknya pukulan kentungan seperti ini tung tung tung tung Share ke teman kalian yang susah Sahur"  # Include 2 spaces before and after
+msg = "  ethan goon  "  # Include 2 spaces before and after
 total_msg_chars = len(msg)
 pulse_duration = 0.1  # seconds (change according to your group)
 sound_freq = 1760     # Hz (change according to your group)
