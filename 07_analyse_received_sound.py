@@ -11,7 +11,7 @@ from scipy.optimize import curve_fit
 # ================================
 # SETTINGS AND GLOBAL VARIABLES
 # ================================
-filename = "06a_received_sound.wav"
+filename = "/Users/tedgoh/S4-IDP-AM-Phy-iPT/received.wav"
 samp_rate, samps = wavfile.read(filename)
 samps = samps / np.max(np.abs(samps))  # Normalize amplitude
 
