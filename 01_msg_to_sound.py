@@ -3,7 +3,7 @@ import numpy as np
 import wave
 import matplotlib.pyplot as plt
 
-FREQUENCY = 1760 // 2  # Halved frequency
+FREQUENCY = 1760 
 AMPLITUDE = 32767
 DURATION_UNIT = 0.1
 SAMPLE_RATE = 44100
@@ -60,9 +60,10 @@ with wave.open('02_sound_half_freq.wav', 'w') as wf:
 # Plot
 t = np.linspace(0, len(waveform)/SAMPLE_RATE, len(waveform))
 plt.plot(t, waveform)
-plt.title("Frequency Halved – Sound Envelope")
+plt.title("Zoom into an On-Pulse Segment")
 plt.xlabel("Time (s)")
-plt.ylabel("Signal")
+plt.ylabel("Signal (arbitrary units)")
+plt.xlim(1.4, 1.410)
 plt.grid(True)
 plt.savefig("04 Received sound period - half freq.png")
 plt.show()
